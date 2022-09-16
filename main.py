@@ -74,7 +74,8 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
         print(numero_carga)
         time.sleep(1.5)
     time.sleep(1)  # para ayudarnos a imaginar que vamos jugando
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     time.sleep(2)
     # Pregunta 1
     print(lista_preguntas[0])
@@ -99,7 +100,8 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje2 = 0
     time.sleep(1)
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     time.sleep(2)
     # Pregunta 2
     print(lista_preguntas[1])
@@ -124,10 +126,11 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje3 = 0
     time.sleep(1)
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     print(
         RED +
-        "Advertencia esta pregunta te quita una cantidad aleatoria de puntos si fallas"
+        "Advertencia esta pregunta te quita una cantidad aleatoria de puntos si fallas\n"
         + RESET)
     time.sleep(2)
     # Pregunta 3
@@ -154,8 +157,9 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje4 = 0
     time.sleep(1)
+    print()
     print("Cargando pregunta...")
-    print("Vas muy bien,sigue adelante")
+    print("Vas muy bien,sigue adelante\n")
     time.sleep(2)
     # Pregunta 4
     print(lista_preguntas[3])
@@ -180,10 +184,11 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje5 = 0
     time.sleep(1)
+    print()
     print("Cargando pregunta...")
     print(
         GREEN +
-        "Ya vamos por la mitad, esta pregunta te otorga una cantidad de puntaje aleatoria si aciertas"
+        "Ya vamos por la mitad, esta pregunta te otorga una cantidad de puntaje aleatoria si aciertas\n"
         + RESET)
     time.sleep(2)
     # Pregunta 5
@@ -209,9 +214,10 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje6 = 0
     time.sleep(1)
+    print()
     print("Cargando pregunta...")
     print(RED +
-          "Desde ahora las respuestas incorrectas te restaran 20 puntos" +
+          "Desde ahora las respuestas incorrectas te restaran 20 puntos\n" +
           RESET)
     time.sleep(2)
     # Pregunta 6
@@ -236,7 +242,8 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje7 = 0
     time.sleep(1)
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     time.sleep(2)
     # Pregunta 7
     print(lista_preguntas[6])
@@ -261,7 +268,8 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje8 = 0
     time.sleep(1)
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     time.sleep(2)
     # Pregunta 8
     print(lista_preguntas[7])
@@ -286,7 +294,8 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje9 = 0
     time.sleep(1)
-    print("Cargando pregunta...")
+    print()
+    print("Cargando pregunta...\n")
     time.sleep(2)
     # Pregunta 9
     print(lista_preguntas[8])
@@ -310,6 +319,7 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
 
     puntaje10 = 0
     time.sleep(1)
+    print()
     print("Cargando pregunta...")
     print(GREEN + "Felicidades has llegado a la pregunta final, suerte" +
           RESET)
@@ -318,7 +328,7 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
           "si contestas bien obtendras un puntaje aleatorio entre 50 y 100" +
           RESET)
     time.sleep(2)
-    print(RED + "De lo contrario se te restará ese mismo puntaje" + RESET)
+    print(RED + "De lo contrario se te restará ese mismo puntaje\n" + RESET)
     time.sleep(2)
     # Pregunta 10
     print(lista_preguntas[9])
